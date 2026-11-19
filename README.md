@@ -1,5 +1,7 @@
 # GTA 6 launch-week meme — make.fun bounty `gta6-meme-x-01`
 
+[![gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?source=github&medium=readme&campaign=gta6-meme-x-01) [![rank](https://make.fun/badge/gta6-meme-x-01/dickycan42/gta6-meme-x/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard) [![reward](https://make.fun/badge/gta6-meme-x-01/dickycan42/gta6-meme-x/reward.svg)](https://make.fun/bounty/gta6-meme-x-01)
+
 ## The meme
 
 Thirteen years after GTA V, GTA 6 is finally here, and the whole joke is
@@ -19,7 +21,7 @@ The finished meme is `gta6-meme-x-01-meme.png` next to this repository
 (it lives outside the repo so the repo stays text-only). The draft text
 for the X post is in `gta6-meme-x-01-post.txt`, also next to the repo.
 
-## The post (draft — not posted by this repo)
+## The post (live on X)
 
 > Waited 13 years for GTA 6. Called in sick. Worth it. 😎
 >
@@ -30,9 +32,11 @@ for the X post is in `gta6-meme-x-01-post.txt`, also next to the repo.
 > @makefunai
 > makefun-warbler-fiddle-mill
 
-The post goes out from a public X account, with the meme picture
-attached, before the deadline (23 November 2026, 21:00 WIB). After it is
-posted, its address replaces the placeholder in `POST.json`.
+The post is live from the public X account @ronchaok, with the meme picture
+attached, before the deadline (23 November 2026, 21:00 WIB). Its address is
+recorded in `POST.json`:
+
+https://x.com/ronchaok/status/2123438651971633312
 
 ## The program
 
@@ -46,14 +50,13 @@ Run it the way the grader does:
 mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-It prints nothing on success. `POST.json` currently holds the starter
-placeholder address; it must be replaced with the real post address
-(`https://x.com/<handle>/status/<id>`) before submitting.
+It prints nothing on success. `POST.json` now holds the live post address
+(`https://x.com/ronchaok/status/2123438651971633312`).
 
 ## Files
 
 - `main.ts` — the program above.
-- `POST.json` — the post address (placeholder until the post is live).
+- `POST.json` — the live post address (https://x.com/ronchaok/status/2123438651971633312).
 - `README.md` — this file.
 - `LICENSE` — MIT.
 - `.makefun/owner.json` — the wallet this entry belongs to.
